@@ -1,0 +1,481 @@
+
+[25-Jul-2018 05:06:21 America/Chicago] PHP Warning:  require_once(Db_Operation.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:06:21 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Db_Operation.php' (include_path='.:/opt/php53/lib/php') in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:08:41 America/Chicago] PHP Warning:  require_once(Db_Operation.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:08:41 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Db_Operation.php' (include_path='.:/opt/php53/lib/php') in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:08:51 America/Chicago] PHP Warning:  require_once(Db_Operation.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:08:51 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Db_Operation.php' (include_path='.:/opt/php53/lib/php') in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 15:39:12 Asia/Calcutta] PHP Warning:  require_once(Db_Operation.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/infinfo/public_html/achivia/library/adminconfig.php on line 74
+[25-Jul-2018 15:39:12 Asia/Calcutta] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Db_Operation.php' (include_path='.:/opt/php53/lib/php') in /home/infinfo/public_html/achivia/library/adminconfig.php on line 74
+[25-Jul-2018 05:09:53 America/Chicago] PHP Warning:  require_once(Db_Operation.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:09:53 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Db_Operation.php' (include_path='.:/opt/php53/lib/php') in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:10:35 America/Chicago] PHP Warning:  require_once(library/Db_Operation.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 05:10:35 America/Chicago] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'library/Db_Operation.php' (include_path='.:/opt/php53/lib/php') in /home/infinfo/public_html/achivia/library/adminconfig.php on line 3
+[25-Jul-2018 15:42:24 Asia/Calcutta] PHP Fatal error:  Call to a member function query() on a non-object in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 148
+[25-Jul-2018 15:51:46 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[25-Jul-2018 15:52:11 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 15:53:04 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'description' in 'where clause'' in /home/infinfo/public_html/achivia/library/DB_Operation.php:182
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(182): PDO->query('select b.* from...')
+#1 /home/infinfo/public_html/achivia/blog.php(129): Db_Operation->runSql('select b.* from...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 182
+[25-Jul-2018 15:53:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'description' in 'where clause'' in /home/infinfo/public_html/achivia/library/DB_Operation.php:182
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(182): PDO->query('select b.* from...')
+#1 /home/infinfo/public_html/achivia/blog.php(129): Db_Operation->runSql('select b.* from...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 182
+[25-Jul-2018 15:55:48 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[25-Jul-2018 15:57:06 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 15:57:28 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 15:57:34 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 15:57:43 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 15:57:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 15:57:55 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 16:02:07 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 16:53:30 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[25-Jul-2018 16:57:24 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 16:57:32 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:04:30 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:11:04 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:13:33 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:15:11 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[25-Jul-2018 17:15:16 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:15:29 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:20:44 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:27:06 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:38:36 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 07:13:10 America/Chicago] PHP Fatal error:  Call to a member function Fetch() on a non-object in /home/infinfo/public_html/achivia/common/header.php on line 2
+[25-Jul-2018 17:52:29 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:52:34 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:52:45 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:53:17 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:53:17 Asia/Calcutta] PHP Fatal error:  Cannot redeclare substr_word() (previously declared in /home/infinfo/public_html/achivia/library/adminconfig.php:81) in /home/infinfo/public_html/achivia/library/adminconfig.php on line 87
+[25-Jul-2018 17:53:31 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:53:31 Asia/Calcutta] PHP Fatal error:  Cannot redeclare substr_word() (previously declared in /home/infinfo/public_html/achivia/library/adminconfig.php:81) in /home/infinfo/public_html/achivia/library/adminconfig.php on line 87
+[25-Jul-2018 17:56:03 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:56:03 Asia/Calcutta] PHP Fatal error:  Cannot redeclare substr_word() (previously declared in /home/infinfo/public_html/achivia/library/adminconfig.php:81) in /home/infinfo/public_html/achivia/library/adminconfig.php on line 87
+[25-Jul-2018 17:57:26 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 17:57:54 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:00:33 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:00:35 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:00:35 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:00:35 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:00:35 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:00:42 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:06:36 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:06:37 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 18:36:35 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[25-Jul-2018 21:22:00 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 09:57:09 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[26-Jul-2018 09:57:20 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[26-Jul-2018 09:57:28 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 92
+[26-Jul-2018 10:00:41 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 10:02:09 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 10:02:43 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 10:03:41 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 10:04:00 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 10:04:06 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 10:04:12 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 10:04:17 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 10:04:22 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 10:04:28 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 10:04:32 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 10:08:30 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[25-Jul-2018 23:47:49 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/infinfo/public_html/achivia/process.php on line 327
+[25-Jul-2018 23:48:14 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/infinfo/public_html/achivia/process.php on line 327
+[26-Jul-2018 10:18:43 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:18:43 Asia/Calcutta] PHP Notice:  Undefined index: fname in /home/infinfo/public_html/achivia/index.php on line 12
+[26-Jul-2018 10:18:43 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:18:43 Asia/Calcutta] PHP Notice:  Undefined index: phone in /home/infinfo/public_html/achivia/index.php on line 14
+[26-Jul-2018 10:18:43 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 15
+[26-Jul-2018 10:18:43 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 49
+[26-Jul-2018 10:18:43 Asia/Calcutta] PHP Notice:  Undefined variable: add_date in /home/infinfo/public_html/achivia/index.php on line 49
+[26-Jul-2018 10:18:44 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(50): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:20:11 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:22:53 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:24:30 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:24:40 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:27:28 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:27:38 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:28:24 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:28:24 Asia/Calcutta] PHP Notice:  Undefined index: fname in /home/infinfo/public_html/achivia/index.php on line 12
+[26-Jul-2018 10:28:24 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:28:24 Asia/Calcutta] PHP Notice:  Undefined index: phone in /home/infinfo/public_html/achivia/index.php on line 14
+[26-Jul-2018 10:28:24 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 15
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Notice:  Undefined index: fname in /home/infinfo/public_html/achivia/index.php on line 12
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Notice:  Undefined index: phone in /home/infinfo/public_html/achivia/index.php on line 14
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 15
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 47
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Notice:  Undefined variable: add_date in /home/infinfo/public_html/achivia/index.php on line 47
+[26-Jul-2018 10:28:51 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(48): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Notice:  Undefined index: fname in /home/infinfo/public_html/achivia/index.php on line 12
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Notice:  Undefined index: phone in /home/infinfo/public_html/achivia/index.php on line 14
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 15
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 47
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Notice:  Undefined variable: add_date in /home/infinfo/public_html/achivia/index.php on line 47
+[26-Jul-2018 10:29:12 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(48): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:34:04 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Notice:  Undefined index: fname in /home/infinfo/public_html/achivia/index.php on line 12
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Notice:  Undefined index: email in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Notice:  Undefined index: phone in /home/infinfo/public_html/achivia/index.php on line 14
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 15
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 47
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Notice:  Undefined variable: add_date in /home/infinfo/public_html/achivia/index.php on line 47
+[26-Jul-2018 10:40:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(48): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:43:11 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:45:12 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:45:21 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:45:47 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:46:51 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:48:19 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:48:28 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:49:34 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:49:38 Asia/Calcutta] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/infinfo/public_html/achivia/library/Static_Operation.php on line 9
+[26-Jul-2018 10:50:21 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:50:21 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 17
+[26-Jul-2018 10:50:21 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 51
+[26-Jul-2018 10:50:21 Asia/Calcutta] PHP Notice:  Undefined variable: add_date in /home/infinfo/public_html/achivia/index.php on line 51
+[26-Jul-2018 10:50:21 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:54:45 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:54:45 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 17
+[26-Jul-2018 10:54:45 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 51
+[26-Jul-2018 10:54:45 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:56:49 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:56:49 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 17
+[26-Jul-2018 10:56:49 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 51
+[26-Jul-2018 10:56:49 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:57:05 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:57:05 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 17
+[26-Jul-2018 10:57:05 Asia/Calcutta] PHP Notice:  Undefined variable: preferred_country in /home/infinfo/public_html/achivia/index.php on line 51
+[26-Jul-2018 10:57:05 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 10:58:17 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 10:58:17 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 17
+[26-Jul-2018 10:58:17 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:00:20 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:00:20 Asia/Calcutta] PHP Notice:  Undefined index: country in /home/infinfo/public_html/achivia/index.php on line 17
+[26-Jul-2018 11:00:48 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:01:09 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:01:09 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:01:22 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:01:22 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:02:29 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:02:29 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:03:35 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:03:35 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:04:00 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:04:00 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(52): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:06:09 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:06:31 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:06:31 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(50): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:06:58 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:06:58 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(50): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:07:42 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:07:42 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(50): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:08:31 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:08:31 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(50): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:09:25 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:09:25 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(50): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:10:13 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:10:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(49): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:11:34 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:11:34 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(49): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:12:53 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:13:52 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:14:11 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:14:51 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:15:21 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:16:13 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:17:11 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:17:46 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:17:46 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/index.php(59): Db_Operation->runSql('insert into mng...')
+#2 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:21:43 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:22:41 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:22:51 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:24:18 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:24:52 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/common/banner.php(71): Db_Operation->runSql('insert into mng...')
+#2 /home/infinfo/public_html/achivia/index.php(187): include('/home/infinfo/p...')
+#3 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:24:59 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/common/banner.php(71): Db_Operation->runSql('insert into mng...')
+#2 /home/infinfo/public_html/achivia/index.php(187): include('/home/infinfo/p...')
+#3 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 11:32:50 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:32:58 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 11:41:20 Asia/Calcutta] PHP Notice:  Undefined variable: phone in /home/infinfo/public_html/achivia/contactus.php on line 36
+[26-Jul-2018 11:41:20 Asia/Calcutta] PHP Notice:  Undefined variable: body in /home/infinfo/public_html/achivia/contactus.php on line 62
+[26-Jul-2018 11:42:22 Asia/Calcutta] PHP Notice:  Undefined variable: phone in /home/infinfo/public_html/achivia/contactus.php on line 36
+[26-Jul-2018 11:42:22 Asia/Calcutta] PHP Notice:  Undefined variable: phone in /home/infinfo/public_html/achivia/contactus.php on line 63
+[26-Jul-2018 11:43:51 Asia/Calcutta] PHP Notice:  Undefined variable: phone in /home/infinfo/public_html/achivia/contactus.php on line 36
+[26-Jul-2018 11:43:51 Asia/Calcutta] PHP Notice:  Undefined variable: phone in /home/infinfo/public_html/achivia/contactus.php on line 63
+[26-Jul-2018 11:47:19 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 11:57:34 Asia/Calcutta] PHP Notice:  Use of undefined constant services_name - assumed 'services_name' in /home/infinfo/public_html/achivia/register.php on line 174
+[26-Jul-2018 11:57:34 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 174
+[26-Jul-2018 11:57:34 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 190
+[26-Jul-2018 11:57:34 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 190
+[26-Jul-2018 12:05:31 Asia/Calcutta] PHP Notice:  Use of undefined constant services_name - assumed 'services_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:05:31 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:05:31 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:05:31 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:08:14 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:08:14 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:08:14 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:08:14 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:10:10 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:10:10 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:10:10 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:10:10 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:10:36 Asia/Calcutta] PHP Notice:  Use of undefined constant intake - assumed 'intake' in /home/infinfo/public_html/achivia/register.php on line 84
+[26-Jul-2018 12:10:36 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:10:36 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:10:36 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:10:36 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:13:35 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:13:35 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:13:35 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:13:35 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:14:06 Asia/Calcutta] PHP Notice:  Use of undefined constant intake - assumed 'intake' in /home/infinfo/public_html/achivia/register.php on line 84
+[26-Jul-2018 12:14:06 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:14:06 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:14:06 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:14:06 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:16:40 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:16:40 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:16:40 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:16:40 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:16:40 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2053 ' in /home/infinfo/public_html/achivia/library/DB_Operation.php:183
+Stack trace:
+#0 /home/infinfo/public_html/achivia/library/DB_Operation.php(183): PDOStatement->fetchAll(2)
+#1 /home/infinfo/public_html/achivia/common/footer.php(6): Db_Operation->runSql('insert into new...')
+#2 /home/infinfo/public_html/achivia/register.php(244): include('/home/infinfo/p...')
+#3 {main}
+  thrown in /home/infinfo/public_html/achivia/library/DB_Operation.php on line 183
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:20:30 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:20:30 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:20:30 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:20:30 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:21:11 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:21:11 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:21:11 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:21:11 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:23:24 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 12:28:48 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 12:29:15 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 12:29:24 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 12:35:40 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:35:40 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 12:35:40 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:35:40 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 12:50:53 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/infinfo/public_html/achivia/common/seo.php on line 8
+[26-Jul-2018 12:52:57 Asia/Calcutta] PHP Notice:  Undefined index: page in /home/infinfo/public_html/achivia/index.php on line 13
+[26-Jul-2018 13:16:57 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 13:16:57 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 13:16:57 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 13:16:57 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 13:31:06 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 13:31:06 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 171
+[26-Jul-2018 13:31:06 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 13:31:06 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/infinfo/public_html/achivia/register.php on line 187
+[26-Jul-2018 14:16:18 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/infinfo/public_html/achivia/page.php on line 94
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_title in /home/achivia/public_html/common/seo.php on line 5
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_description in /home/achivia/public_html/common/seo.php on line 7
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_title in /home/achivia/public_html/common/seo.php on line 28
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_description in /home/achivia/public_html/common/seo.php on line 37
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_description in /home/achivia/public_html/common/seo.php on line 41
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: bannerimage in /home/achivia/public_html/university.php on line 88
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: banner_text in /home/achivia/public_html/university.php on line 88
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Notice:  Undefined index: id in /home/achivia/public_html/university.php on line 100
+[26-Jul-2018 15:39:49 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by sorder asc' at line 1' in /home/achivia/public_html/library/DB_Operation.php:148
+Stack trace:
+#0 /home/achivia/public_html/library/DB_Operation.php(148): PDO->query('SELECT *  FROM ...')
+#1 /home/achivia/public_html/university.php(100): Db_Operation->Fetch('mng_countrypage...', NULL, NULL, ' where cid= ord...')
+#2 {main}
+  thrown in /home/achivia/public_html/library/DB_Operation.php on line 148
+[26-Jul-2018 15:44:01 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 15:44:35 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 15:52:06 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 15:52:19 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 15:52:43 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:52:49 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:52:55 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:53:38 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:53:44 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:53:51 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:53:56 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:54:02 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:54:13 Asia/Calcutta] PHP Notice:  Undefined index: meta_keyword in /home/achivia/public_html/common/seo.php on line 8
+[26-Jul-2018 15:56:50 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 15:56:50 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 15:56:50 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 15:56:50 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 15:56:52 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 16:14:36 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 16:15:01 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 16:18:02 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:18:02 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:18:02 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:18:02 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:18:25 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 16:18:36 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 16:18:45 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:18:45 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:18:45 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:18:45 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:19:24 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:19:24 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:19:24 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:19:24 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:19:33 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 16:19:39 Asia/Calcutta] PHP Notice:  Use of undefined constant SITEURL - assumed 'SITEURL' in /home/achivia/public_html/page.php on line 94
+[26-Jul-2018 16:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:20:22 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:30:27 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:30:27 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:30:27 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:30:27 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:30:35 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:30:35 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:30:35 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:30:35 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:32:02 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:32:02 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:32:02 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:32:02 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:32:08 Asia/Calcutta] PHP Notice:  Use of undefined constant test_name - assumed 'test_name' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:32:08 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 171
+[26-Jul-2018 16:32:08 Asia/Calcutta] PHP Notice:  Use of undefined constant country_name - assumed 'country_name' in /home/achivia/public_html/register.php on line 187
+[26-Jul-2018 16:32:08 Asia/Calcutta] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/achivia/public_html/register.php on line 187

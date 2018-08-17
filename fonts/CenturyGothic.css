@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('CenturyGothic.eot'); /* IE9 Compat Modes */
+  src: url('CenturyGothic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CenturyGothic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('CenturyGothic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('CenturyGothic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CenturyGothic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'CenturyGothicBold';
+  src: url('CenturyGothicBold.eot'); /* IE9 Compat Modes */
+  src: url('CenturyGothicBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CenturyGothicBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('CenturyGothicBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('CenturyGothicBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CenturyGothicBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+

@@ -1,0 +1,85 @@
+RewriteEngine on 
+
+RewriteCond %{REQUEST_FILENAME} !-f  
+
+ErrorDocument 404 https://www.achivia.in/404.php
+
+RewriteRule ^admin/.*$ - [PT]
+
+#RewriteRule ^([^\.]+)$ $1.php 
+
+#Top Links
+
+#RewriteCond %{HTTP_HOST} !^www.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault 'access plus 10 days'
+ExpiresByType text/css 'access plus 1 week'
+ExpiresByType text/plain 'access plus 1 month'
+ExpiresByType image/gif 'access plus 1 month'
+ExpiresByType image/png 'access plus 1 month'
+ExpiresByType image/jpeg 'access plus 1 month'
+ExpiresByType application/x-javascript 'access plus 1 month'
+ExpiresByType application/javascript 'access plus 1 week'
+ExpiresByType application/x-icon 'access plus 1 year'
+</IfModule>
+
+RewriteRule ^home/?$ index.php [NC,L]
+RewriteRule ^404/?$ 404.php [NC,L]
+RewriteRule ^services/?$ services.php [NC,L]
+RewriteRule ^blog/?$ blog.php [NC,L]
+RewriteRule ^contact/?$ contactus.php [NC,L]
+RewriteRule ^test-preparation/?$ test_preparation.php [NC,L]
+RewriteRule ^about/?$ page.php?id=7 [NC,L]
+RewriteRule ^career/?$ page.php?id=8 [NC,L]
+RewriteRule ^registration/?$ register.php [NC,L]
+RewriteRule ^blog/common-mistakes-to-avoid-for-mba-admissions-in-us-b-schools/?$ blog_details.php?id=11  [QSA]
+RewriteRule ^blog/plan-ahead-to-meet-global-university-deadlines/?$ blog_details.php?id=12  [QSA]
+RewriteRule ^blog/where-should-i-study-mba-from-australia-or-canada?/?$ blog_details.php?id=13  [QSA]
+RewriteRule ^blog/study,-work-and-live-in-ireland!/?$ blog_details.php?id=14  [QSA]
+RewriteRule ^blog/13-unconventional-study-abroad-destinations-for-indian-students/?$ blog_details.php?id=15  [QSA]
+RewriteRule ^blog/mba-an-added-value-to-any-start-up-and-entrepreneur/?$ blog_details.php?id=16  [QSA]
+RewriteRule ^blog/how-much-does-it-cost-to-study-in-the-us-guide-for-indian-students/?$ blog_details.php?id=17  [QSA]
+RewriteRule ^blog/be-qualified-in-procurement-and-supply-chain-management/?$ blog_details.php?id=18  [QSA]
+RewriteRule ^blog/going-places....the-ielts-way!/?$ blog_details.php?id=19  [QSA]
+RewriteRule ^blog/is-your-english-good-enough-to-score-well-in-ielts?/?$ blog_details.php?id=20  [QSA]
+RewriteRule ^blog/scholarships-grants-funding-options-for-indian-students-planning-to-study-abroad/?$ blog_details.php?id=21  [QSA]
+RewriteRule ^blog/stay-in-uk-for-six-months-after-university-with-new-tier-4-visa-scheme/?$ blog_details.php?id=22  [QSA]
+RewriteRule ^blog/types-of-australian-student-visas-and-your-eligibility-to-work-during-study/?$ blog_details.php?id=23  [QSA]
+RewriteRule ^blog/are-you-worried-about-your-career-break-here-are-the-ways-to-fill-a-resume-gap/?$ blog_details.php?id=24  [QSA]
+RewriteRule ^blog/why-you-should-get-off-your-comfort-zone-to-study-abroad?/?$ blog_details.php?id=25  [QSA]
+RewriteRule ^blog/writing-a-winning-statement-of-purpose:-your-steps-to-success!/?$ blog_details.php?id=26  [QSA]
+RewriteRule ^blog/a-parent-s-guide-to-study-abroad!/?$ blog_details.php?id=27  [QSA]
+RewriteRule ^blog/safety-tips-to-learn-while-studying-abroad/?$ blog_details.php?id=28  [QSA]
+RewriteRule ^blog/what-it-means-to-be-an-intern-abroad?/?$ blog_details.php?id=29  [QSA]
+RewriteRule ^blog/7-myths-about-studying-abroad/?$ blog_details.php?id=30  [QSA]
+RewriteRule ^blog/second-blog/?$ blog_details.php?id=45  [QSA]
+RewriteRule ^academics/?$ blog.php?id=1  [QSA]
+RewriteRule ^culture-travel/?$ blog.php?id=2  [QSA]
+RewriteRule ^employment/?$ blog.php?id=3  [QSA]
+RewriteRule ^visa-immigration/?$ blog.php?id=4  [QSA]
+RewriteRule ^scholarship/?$ blog.php?id=6  [QSA]
+RewriteRule ^internship-abroad-blog/?$ blog.php?id=8  [QSA]
+RewriteRule ^others-blog/?$ blog.php?id=11  [QSA]
+RewriteRule ^testpreparation-blog/?$ blog.php?id=16  [QSA]
+RewriteRule ^services/selection-of-university/?$ services.php?id=2  [QSA]
+RewriteRule ^services/editorial-services/?$ services.php?id=3  [QSA]
+RewriteRule ^services/scholarship-assistance/?$ services.php?id=4  [QSA]
+RewriteRule ^services/visa-assistance/?$ services.php?id=5  [QSA]
+RewriteRule ^services/pre-departure-guidance/?$ services.php?id=6  [QSA]
+RewriteRule ^services/other-value-added-services/?$ services.php?id=7  [QSA]
+RewriteRule ^country/uk/?$ university.php?id=4  [QSA]
+RewriteRule ^country/usa/?$ university.php?id=5  [QSA]
+RewriteRule ^country/australia/?$ university.php?id=6  [QSA]
+RewriteRule ^country/canada/?$ university.php?id=7  [QSA]
+RewriteRule ^country/france/?$ university.php?id=8  [QSA]
+RewriteRule ^country/new-zealand/?$ university.php?id=9  [QSA]
+RewriteRule ^country/ireland/?$ university.php?id=10  [QSA]
+RewriteRule ^country/germany/?$ university.php?id=11  [QSA]
+RewriteRule ^country/singapore/?$ university.php?id=12  [QSA]
+RewriteRule ^country/malaysia/?$ university.php?id=13  [QSA]
+RewriteRule ^test-preparation/pte/?$ test_details.php?id=2  [QSA]
+RewriteRule ^test-preparation/toefl/?$ test_details.php?id=3  [QSA]
+RewriteRule ^test-preparation/ielts/?$ test_details.php?id=4  [QSA]
